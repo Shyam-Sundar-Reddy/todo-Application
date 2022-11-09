@@ -10,14 +10,14 @@ background-size: cover;
 }
 
 h1 {
-  color: #fff;
+  color: #042940;
   padding: 10px;
 }
 
 
 .box {
-  max-width: 800px;
-
+  max-width: 700px;
+max-height: 80%;
   margin: 50px auto;
   background: #CBFFA1;
   border-radius: 15px;
@@ -34,7 +34,8 @@ h1 {
   min-height: 80px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 0.1px solid #042940;
+
 }
 
 .item:last-child {
@@ -71,9 +72,9 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #D6D58E;
+  background-color: #042940;
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   padding-bottom: 6px;
   border-width: 0;
 }
@@ -85,17 +86,17 @@ input[type="text"] {
   border: none;
   background: transparent;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 150;
   width: 313px;
 }
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #D6D58E;
+  box-shadow: inset 0 -3px 0 0 #042940;
 }
 
 ::placeholder {
-  color: grey;
+  color:#042940;
   opacity: 1;
 }
 
@@ -112,7 +113,7 @@ footer {
  p {
    margin: 0;
    padding: 0px;
-   font-size: 40px;
-   font-weight: 200;
+   font-size: 30px;
+   font-weight: 150;
    color: #042940;
  }
