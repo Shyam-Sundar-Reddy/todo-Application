@@ -16,7 +16,7 @@ h1 {
 
 
 .box {
-  max-width: 600px;
+  max-width: 800px;
 
   margin: 50px auto;
   background: #CBFFA1;
@@ -31,7 +31,7 @@ h1 {
 }
 
 .item {
-  min-height: 100px;
+  min-height: 80px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #F1F1F1;
@@ -105,10 +105,14 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
-@media screen and (max-width: 1080px) {
- html {
-    height: 00px;
-   width: 100vw;
-   position: fixed;
+ @media only screen and (min-width: 600px) {
+   .box {
+     width: 100%;
  }
-}
+ p {
+   margin: 0;
+   padding: 0px;
+   font-size: 40px;
+   font-weight: 200;
+   color: #042940;
+ }
